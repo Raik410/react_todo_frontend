@@ -1,0 +1,11 @@
+.wrapper {
+    background-color: #83C5BE;
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body {
+    background-color: #83C5BE;
+}

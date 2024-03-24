@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #83C5BE;
+    justify-content: space-between;
+    padding: 10px 40px 10px;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.header__menu {
+    width: 35px;
+    height: 25px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+
+.header__profile {
+
+}
+
+.header__mode {
+
+}
+
+.header__notification {
+
+}

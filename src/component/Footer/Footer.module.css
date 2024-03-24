@@ -1,0 +1,21 @@
+.footer {
+    background-color: #83C5BE;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 40px 10px;
+    color: #016D77;
+}
+
+.footer__telegram {
+
+}
+
+.footer__github {
+
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}

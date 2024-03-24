@@ -1,0 +1,58 @@
+.main {
+    padding: 80px 5px 0;
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffddd2;
+    flex: 1;
+}
+
+.main__title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #006d77;
+    text-align: center;
+}
+
+.main__todos {
+    padding: 40px 10px;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.main__todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #006d77;
+    border-radius: 7px;
+    padding: 15px 20px 15px;
+    max-width: 600px;
+}
+
+.main__todoContainer:first-child {
+    margin-right: 30px;
+}
+
+.main__todoContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 17px;
+    align-items: center;
+}
+
+.main__todoTitle {
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffddd2;
+}
+
+.main__todoDate {
+    font-weight: 700;
+    font-size: 12px;
+    color: #ffddd2;
+}
